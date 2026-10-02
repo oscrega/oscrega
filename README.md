@@ -21,16 +21,29 @@
 
 ## 📚 Base de Conocimiento (KB) - Auditorías y Análisis (.md)
 
-Acceso completo a la base de conocimiento (`/kb/pentest-reports/`) en sintaxis Markdown nativa para inspección de comandos, código, artefactos forenses y queries SPL:
+Acceso completo a la base de conocimiento (`./KB/`) en sintaxis Markdown nativa para inspección de comandos, código, artefactos forenses y queries SPL:
 
-* 🪟 **[Active Directory & Windows Infrastructure (`\KB\PENTEST-reports\Active-Directory-and-Enterprise-Identity/`)](./KB/PENTEST-reports/Active-Directory-and-Enterprise-Identity/)**
-  * *HTB Cascade* (LDAP Custom, DES VNC) y auditorías adicionales.
-* 🐧 **[Linux & Web Applications (`\KB\PENTEST-reports\Web-Application-Penetration-Testing\`)](./KB/PENTEST-reports/Web-Application-Penetration-Testing/)**
-  * *HTB Mango* (Blind NoSQLi `$regex`, `jjs` SUID) y auditorías adicionales.
-* 🔍 **[DFIR & Forense de Host (`\KB\DFIR-reports\`)](./KB/DFIR-reports/)**
-  * *HTB Recollection* (Volatility 3, Imphash en RAM), *HTB Tracer* (Prefetch, USN Journal, Sysmon), *HTB RogueOne*, *HTB BFT*, *HTB CrownJewel-1*, *HTB Operation Blackout* y auditorias adicionales
-* 🚨 **[SOC, Threat Hunting & Análisis de Red (`\KB\SOC-reports\`)](./KB/SOC-reports/)**
-  * *HTB Meerkat* (Suricata IDS, CVE-2022-25237), *HTB Interceptor* (Malware SSLoad, DLL Side-Loading), *HTB Takedown*, *HTB Jingle Bell*, *HTB Campfire-2* y auditorias adicionales
-* 🔍 **[Detección, SIEM & Análisis de Logs con Splunk (`/kb/pentest-reports/splunk-detection/`)](./KB/SPLUNK-reports/Dataset_Botv2/)**  * Detección de amenazas, Threat Hunting con consultas SPL, reglas de correlación y análisis de archivos BOT/EVTX.
-
+* 🪟 **[Active Directory & Enterprise Identity (`./KB/PENTEST-reports/Active-Directory-and-Enterprise-Identity/`)](./KB/PENTEST-reports/Active-Directory-and-Enterprise-Identity/)**
+  * *HTB Cascade* (LDAP Custom, DES VNC) y auditorías de infraestructura Active Directory.
+* ⚙️ **[Binary Exploitation & Host Hardening (`./KB/PENTEST-reports/Binary-Exploitation-and-Host-Hardening/`)](./KB/PENTEST-reports/Binary-Exploitation-and-Host-Hardening/)**
+  * Explotación de binarios, análisis de buffer overflows, elevación de privilegios y hardening de sistemas.
+* 🤖 **[Emerging Tech, AI & CI/CD Security (`./KB/PENTEST-reports/Emerging-Tech-AI-and-CICD-Security/`)](./KB/PENTEST-reports/Emerging-Tech-AI-and-CICD-Security/)**
+  * Auditoría de pipelines CI/CD, seguridad en modelos/aplicaciones con IA y tecnologías emergentes.
+* 🌐 **[Perimeter Network & Remote Access (`./KB/PENTEST-reports/Perimeter-Network-and-Remote-Access/`)](./KB/PENTEST-reports/Perimeter-Network-and-Remote-Access/)**
+  * Pentesting perimetral, servicios de acceso remoto (VPN, SSH, RDP) y auditorías de infraestructura expuesta.
+* 🐧 **[Web Application Penetration Testing (`./KB/PENTEST-reports/Web-Application-Penetration-Testing/`)](./KB/PENTEST-reports/Web-Application-Penetration-Testing/)**
+  * *HTB Mango* (Blind NoSQLi `$regex`, `jjs` SUID) y auditorías de aplicaciones web.
+* 🔍 **[DFIR & Forense de Host (`./KB/DFIR-reports/`)](./KB/DFIR-reports/)**
+  * **Active Directory & Controlador de Dominio:** Kerberos, NTDS.
+  * **Análisis Forense de Memoria RAM:** Volatility 3, Imphash en RAM (*HTB Recollection*).
+  * **Análisis Forense de Sistema de Archivos & Triage:** MFT, USN Journal, Prefetch (*HTB Tracer*).
+  * **Entornos Linux, Auditoría Web & Tráfico de Red:** PCAP, logs de servidor web (*HTB RogueOne*, *HTB BFT*, *HTB CrownJewel-1*, *HTB Operation Blackout*).
+  * **Seguridad de Endpoints Windows & Evasión de Defensas:** EVTX, Sysmon.
+* 🚨 **[SOC, Threat Hunting & Análisis de Red (`./KB/SOC-reports/`)](./KB/SOC-reports/)**
+  * **Email Security & Phishing Analysis:** Análisis de cabeceras, artefactos de correo y adjuntos maliciosos.
+  * **Network Traffic & C2 Analysis:** Análisis de tráfico, beacons y comunicación C2 (*HTB Interceptor*).
+  * **Web Security & NIDS Alert Triage:** Suricata IDS, alertas NIDS, vulnerabilidades web (*HTB Meerkat* - CVE-2022-25237).
+  * **Windows Endpoint & Database Artifacts:** Análisis de eventos de endpoint, bases de datos y persistencia (*HTB Takedown*, *HTB Jingle Bell*, *HTB Campfire-2*).
+* 🔍 **[Detección, SIEM & Análisis de Logs con Splunk (`./KB/SPLUNK-reports/Dataset_Botv2/`)](./KB/SPLUNK-reports/Dataset_Botv2/)**
+  * Detección de amenazas, Threat Hunting con consultas SPL, reglas de correlación y análisis de datasets BOTv2 / EVTX.
 
