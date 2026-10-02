@@ -35,7 +35,7 @@ Acceso completo a la base de conocimiento (`./KB/`) en sintaxis Markdown nativa 
 
   * **[Active Directory & Controlador de Dominio](./KB/DFIR-reports/Active_Directory_&_Controlador_de_Dominio_(Kerberos_&_NTDS)/):** Artefactos de autenticación, extracción/análisis de bases de datos NTDS.dit y dumps de Kerberos.
   * **[Análisis Forense de Memoria RAM](./KB/DFIR-reports/Análisis_Forense_de_Memoria_RAM_(Volatility)/):** Extracción de artefactos en volúmenes de RAM con Volatility, identificación de malware inyectado e Imphash.
-  * **[Análisis Forense de Sistema de Archivos & Triage](.KB/DFIR-reports/Análisis_Forense_de_Sistema_de_Archivos_&_Triaje_de_Disco_(MFT_&_USN_&_Prefetch):** Triage de disco, análisis de registros MFT, USN Journal y evidencias de ejecución en Prefetch.
+  * **[Análisis Forense de Sistema de Archivos & Triage](.KB/DFIR-reports/Análisis_Forense_de_Sistema_de_Archivos_&_Triaje_de_Disco_(MFT_&_USN_&_Prefetch)/):** Triage de disco, análisis de registros MFT, USN Journal y evidencias de ejecución en Prefetch.
   * **[Entornos Linux, Auditoría Web & Tráfico de Red](./KB/DFIR-reports/Entornos_Linux_Auditoría_Web_&_Tráfico_de_Red_(PCAP)/):** Capturas de tráfico PCAP, análisis de accesos web y artefactos forenses en sistemas Linux.
   * **[Seguridad de Endpoints Windows & Evasión de Defensas](./KB/DFIR-reports/Seguridad_de_Endpoints_Windows_&_Evasión_de_Defensas_(EVTX_&_Sysmon)/):** Correlación de eventos EVTX/Sysmon, detección de técnicas de evasión e indicadores de compromiso (IOCs).
 
