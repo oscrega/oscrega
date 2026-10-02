@@ -50,3 +50,37 @@ Acceso completo a la base de conocimiento (`./KB/`) en sintaxis Markdown nativa 
 
   * Threat Hunting mediante consultas SPL avanzadas, desarrollo de reglas de correlación y análisis de grandes datasets de eventos de seguridad.
 
+## 🎓 Proyectos Académicos & Inteligencia Artificial (`Academic_projects/`)
+
+Acceso a proyectos académicos, código fuente, scripts de prueba y documentación técnica desarrollada (`Academic_projects/`):
+
+* 🤖 **[Artificial Intelligence & Intelligent Systems](Academic_projects/Artificial%20Intelligence%20%26%20Intelligent%20Systems/)**
+
+  * **[Documentación & Análisis (`Ejercicio_Embalses_IA_ÓOR.pdf`)](Academic_projects/Artificial%20Intelligence%20%26%20Intelligent%20Systems/Ejercicio_Embalses_IA_%C3%93OR.pdf):** Memoria técnica del estudio e implementación de modelos de Inteligencia Artificial aplicados a la predicción y análisis de embalses.
+  * **[Cuaderno de Código (`Ejercicio.ipynb`)](Academic_projects/Artificial%20Intelligence%20%26%20Intelligent%20Systems/Ejercicio.ipynb):** Jupyter Notebook interactivo con la ejecución de algoritmos, preprocesamiento de datos y gráficos de rendimiento.
+
+* 🗄️ **[Dataset Design & Development (Bases de Datos)](Academic_projects/Dataset%20Design%20%26%20Development%20%28DataBases%29/)**
+
+  * **[Documentación de Diseño (`Trabajo_DataBase_Óscar_Ortega.pdf`)](Academic_projects/Dataset%20Design%20%26%20Development%20%28DataBases%29/Trabajo_DataBase_%C3%93scar_Ortega.pdf):** Proyecto completo sobre el modelado conceptual, lógico y físico para la gestión de bases de datos.
+  * **[Esquemas & Diagramas](Academic_projects/Dataset%20Design%20%26%20Development%20%28DataBases%29/):** Diagrama Físico, Diagrama Conceptual y Diagrama Relacional del modelo entidad-relación (*Aceites Tardudo*).
+  * **[Scripts SQL Implementados](Academic_projects/Dataset%20Design%20%26%20Development%20%28DataBases%29/):** Ficheros DDL/DML (`aceites_tarudo.sql`) y consultas avanzadas (`querry_aceites_tarudo.sql`).
+
+* 📋 **[Planning a Computing Project](Academic_projects/Planning%20a%20Computing%20Project/)**
+
+  * **[Propuesta de Proyecto (`E-volution Óscar Ortega Rueda.pdf`)](Academic_projects/Planning%20a%20Computing%20Project/E-volution%20%C3%93scar%20Ortega%20Rued...pdf):** Planificación estratégica, gestión de recursos y metodología para el desarrollo de software (Proyecto *E-volution*).
+
+* 💻 **[Programming & Coding (Python & Desarrollo)](Academic_projects/Programming%20%26%20Coding/)**
+
+  * **[Memoria Técnica (`Oscar Ortega Trabajo.pdf`)](Academic_projects/Programming%20%26%20Coding/PDF%20Completo/Oscar%20Ortega%20Trabajo.pdf):** Documentación completa del proyecto de desarrollo de software y arquitectura lógica.
+  * **[Presentación Ejecutiva (`PPT Trabajo Oscar Ortega.pptx`)](Academic_projects/Programming%20%26%20Coding/PPT%20Oscar%20Ortega%20Rueda/PPT%20Trabajo%20Oscar%20Ortega.pptx):** Diapositivas de defensa del proyecto de programación.
+  * **[Archivos de Código Python](Academic_projects/Programming%20%26%20Coding/Python%20archivos/):** Implementaciones en Python agrupadas por bloques/actividades (`AB2/` con `main.py`, `numeros.py` y `AB3/` con `estudiante.py`, `main.py`).
+
+---
+
+## 📜 Certificaciones Profesionales (`Certifications/`)
+
+Acreditaciones y certificaciones de ciberseguridad e industria:
+
+* 🛡️ **[INE - eJPTv2 (eLearnSecurity Junior Penetration Tester v2)](Certifications/INE_eJPTv2.pdf)**
+
+  * Certificación práctica de hacking ético y auditoría ofensiva de redes, evaluación de vulnerabilidades, explotación de aplicaciones web y post-explotación.
