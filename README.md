@@ -1,4 +1,4 @@
-## 📄 Informes Destacados (TOP 8 Entregables VIP en PDF)
+## 📄 Informes Destacados (TOP 8 Auditorias en PDF)
 
 > *Nota: Auditorías técnicas completas maquetadas en formato corporativo PDF. Incluyen Resumen Ejecutivo (dirigido a C-Level / Dirección), Matriz de Hallazgos CVSS v3.1, Pruebas de Concepto (PoC) detalladas, alineación con MITRE ATT&CK y plan de remediación.*
 
