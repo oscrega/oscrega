@@ -5,7 +5,7 @@
 ### A. Active Directory & Enterprise Infrastructure
 | Proyecto / Target | Vectores & TTPs Clave (MITRE ATT&CK) | Reporte Completo |
 | :--- | :--- | :--- |
-| **HTB EscapeTwo** | Explotación AD CS (ESC4 a ESC1), WriteOwner en DACL, MSSQL `xp_cmdshell` | 📄 [Ver PDF](./reports-pdf/HTB_EscapeTwo_Pentest_Report.pdf) |
+| **HTB EscapeTwo** | Explotación AD CS (ESC4 a ESC1), WriteOwner en DACL, MSSQL `xp_cmdshell` | 📄 [Ver PDF](./Reports-pdf/HTB_EscapeTwo_Windows_ActiveDirectory_Pentest_Report.pdf) |
 | **HTB Fluffy** | Coerción NTLMv2 (CVE-2025-24071), Shadow Credentials (`msDS-KeyCredentialLink` / ESC16), PKINIT | 📄 [Ver PDF](./reports-pdf/HTB_Fluffy_Pentest_Report.pdf) |
 | **HTB Voleur** | Targeted Kerberoasting, restauración de objetos con `bloodyAD`, DPAPI y pivotaje WSL | 📄 [Ver PDF](./reports-pdf/HTB_Voleur_Pentest_Report.pdf) |
 | **HTB Administrator** | Permisos GenericAll en RPC, inyección de SPN malicioso (`GenericWrite`) y DCSync | 📄 [Ver PDF](./reports-pdf/HTB_Administrator_Pentest_Report.pdf) |
