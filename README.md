@@ -25,9 +25,9 @@ Acceso completo a la base de conocimiento (`/kb/pentest-reports/`) en sintaxis M
 
 * 🪟 **[Active Directory & Windows Infrastructure (`\KB\PENTEST-reports\Active-Directory-and-Enterprise-Identity/`)](./KB/PENTEST-reports/Active-Directory-and-Enterprise-Identity/)**
   * *HTB Cascade* (LDAP Custom, DES VNC) y auditorías adicionales.
-* 🐧 **[Linux & Web Applications (`\KB\PENTEST-reports\Web-Application-Penetration-Testing\`)](.\KB\PENTEST-reports\Web-Application-Penetration-Testing/)**
+* 🐧 **[Linux & Web Applications (`\KB\PENTEST-reports\Web-Application-Penetration-Testing\`)](./KB/PENTEST-reports/Web-Application-Penetration-Testing/)**
   * *HTB Mango* (Blind NoSQLi `$regex`, `jjs` SUID) y auditorías adicionales.
-* 🔍 **[DFIR & Forense de Host (`\KB\DFIR-reports\`)](.\KB\DFIR-reports/)**
+* 🔍 **[DFIR & Forense de Host (`\KB\DFIR-reports\`)](./KB/DFIR-reports/)**
   * *HTB Recollection* (Volatility 3, Imphash en RAM), *HTB Tracer* (Prefetch, USN Journal, Sysmon), *HTB RogueOne*, *HTB BFT*, *HTB CrownJewel-1*, *HTB Operation Blackout*.
-* 🚨 **[SOC, Threat Hunting & Análisis de Red (`\KB\SOC-reports\`)](.\KB\SOC-reports/)**
+* 🚨 **[SOC, Threat Hunting & Análisis de Red (`\KB\SOC-reports\`)](./KB/SOC-reports/)**
   * *HTB Meerkat* (Suricata IDS, CVE-2022-25237), *HTB Interceptor* (Malware SSLoad, DLL Side-Loading), *HTB Takedown*, *HTB Jingle Bell*, *HTB Campfire-2*.
