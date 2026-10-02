@@ -28,6 +28,9 @@ Acceso completo a la base de conocimiento (`/kb/pentest-reports/`) en sintaxis M
 * 🐧 **[Linux & Web Applications (`\KB\PENTEST-reports\Web-Application-Penetration-Testing\`)](./KB/PENTEST-reports/Web-Application-Penetration-Testing/)**
   * *HTB Mango* (Blind NoSQLi `$regex`, `jjs` SUID) y auditorías adicionales.
 * 🔍 **[DFIR & Forense de Host (`\KB\DFIR-reports\`)](./KB/DFIR-reports/)**
-  * *HTB Recollection* (Volatility 3, Imphash en RAM), *HTB Tracer* (Prefetch, USN Journal, Sysmon), *HTB RogueOne*, *HTB BFT*, *HTB CrownJewel-1*, *HTB Operation Blackout*.
+  * *HTB Recollection* (Volatility 3, Imphash en RAM), *HTB Tracer* (Prefetch, USN Journal, Sysmon), *HTB RogueOne*, *HTB BFT*, *HTB CrownJewel-1*, *HTB Operation Blackout* y auditorias adicionales
 * 🚨 **[SOC, Threat Hunting & Análisis de Red (`\KB\SOC-reports\`)](./KB/SOC-reports/)**
-  * *HTB Meerkat* (Suricata IDS, CVE-2022-25237), *HTB Interceptor* (Malware SSLoad, DLL Side-Loading), *HTB Takedown*, *HTB Jingle Bell*, *HTB Campfire-2*.
+  * *HTB Meerkat* (Suricata IDS, CVE-2022-25237), *HTB Interceptor* (Malware SSLoad, DLL Side-Loading), *HTB Takedown*, *HTB Jingle Bell*, *HTB Campfire-2* y auditorias adicionales
+* 🔍 **[Detección, SIEM & Análisis de Logs con Splunk (`/kb/pentest-reports/splunk-detection/`)](./KB/SPLUNK-reports/Dataset_Botv2/)**  * Detección de amenazas, Threat Hunting con consultas SPL, reglas de correlación y análisis de archivos BOT/EVTX.
+
+
