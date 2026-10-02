@@ -24,28 +24,29 @@
 Acceso completo a la base de conocimiento (`./KB/`) en sintaxis Markdown nativa para inspección de comandos, código, artefactos forenses y queries SPL:
 
 * ⚔️ **[Pentesting, Red Team & Offensive Security (`./KB/PENTEST-reports/`)](./KB/PENTEST-reports/)**
-* 
+
   * **[Active Directory & Enterprise Identity](./KB/PENTEST-reports/Active-Directory-and-Enterprise-Identity/):** Enumeración LDAP, explotación de Kerberos, movimiento lateral, persistencia y auditoría de infraestructuras Active Directory.
   * **[Binary Exploitation & Host Hardening](./KB/PENTEST-reports/Binary-Exploitation-and-Host-Hardening/):** Explotación de binarios, análisis de buffer overflows, elevación de privilegios y hardening de sistemas.
   * **[Emerging Tech, AI & CI/CD Security](./KB/PENTEST-reports/Emerging-Tech-AI-and-CICD-Security/):** Auditorías de pipelines CI/CD, seguridad en modelos/aplicaciones con IA y evaluación de tecnologías emergentes.
   * **[Perimeter Network & Remote Access](./KB/PENTEST-reports/Perimeter-Network-and-Remote-Access/):** Pentesting perimetral, servicios de acceso remoto (VPN, SSH, RDP) y auditorías de infraestructura expuesta.
   * **[Web Application Penetration Testing](./KB/PENTEST-reports/Web-Application-Penetration-Testing/):** Inyecciones NoSQL/SQL, evasión de controles, escalada de privilegios web y auditorías de aplicaciones.
-  * 
+
 * 🔍 **[DFIR & Forense de Host (`./KB/DFIR-reports/`)](./KB/DFIR-reports/)**
-* 
+
   * **[Active Directory & Controlador de Dominio](./KB/DFIR-reports/Active_Directory_&_Controlador_de_Dominio_(Kerberos_&_NTDS)/):** Artefactos de autenticación, extracción/análisis de bases de datos NTDS.dit y dumps de Kerberos.
   * **[Análisis Forense de Memoria RAM](./KB/DFIR-reports/Análisis_Forense_de_Memoria_RAM_(Volatility)/):** Extracción de artefactos en volúmenes de RAM con Volatility, identificación de malware inyectado e Imphash.
   * **[Análisis Forense de Sistema de Archivos & Triage](./KB/DFIR-reports/Análisis_Forense_de_Sistema_de_Archivos_&_Triage_de_Disco_(MFT_&_USN_&_Prefetch)/):** Triage de disco, análisis de registros MFT, USN Journal y evidencias de ejecución en Prefetch.
   * **[Entornos Linux, Auditoría Web & Tráfico de Red](./KB/DFIR-reports/Entornos_Linux_Auditoría_Web_&_Tráfico_de_Red_(PCAP)/):** Capturas de tráfico PCAP, análisis de accesos web y artefactos forenses en sistemas Linux.
   * **[Seguridad de Endpoints Windows & Evasión de Defensas](./KB/DFIR-reports/Seguridad_de_Endpoints_Windows_&_Evasión_de_Defensas_(EVTX_&_Sysmon)/):** Correlación de eventos EVTX/Sysmon, detección de técnicas de evasión e indicadores de compromiso (IOCs).
-  * 
+
 * 🚨 **[SOC, Threat Hunting & Análisis de Red (`./KB/SOC-reports/`)](./KB/SOC-reports/)**
-* 
+
   * **[Email Security & Phishing Analysis](./KB/SOC-reports/Email_Security_&_Phishing_Analysis/):** Análisis de cabeceras de correo, trazabilidad de cabeceras SMTP, extracción de adjuntos y triage de phishing.
   * **[Network Traffic & C2 Analysis](./KB/SOC-reports/Network_Traffic_&_C2_Analysis/):** Detección de tráfico de red anómalo, identificación de beacons C2 y exfiltración de datos.
   * **[Web Security & NIDS Alert Triage](./KB/SOC-reports/Web_Security_&_NIDS_Alert_Triage/):** Triage de alertas NIDS (Suricata/Snort), vulnerabilidades web expuestas e inspección de peticiones de red.
   * **[Windows Endpoint & Database Artifacts](./KB/SOC-reports/Windows_Endpoint_&_Database_Artifacts/):** Detección de persistencia en endpoints, análisis de bases de datos y comportamiento anómalo de procesos.
-  * 
+
 * 📊 **[Detección, SIEM & Análisis de Logs con Splunk (`./KB/SPLUNK-reports/Dataset_Botv2/`)](./KB/SPLUNK-reports/Dataset_Botv2/)**
+
   * Threat Hunting mediante consultas SPL avanzadas, desarrollo de reglas de correlación y análisis de grandes datasets de eventos de seguridad.
 
