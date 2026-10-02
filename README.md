@@ -23,7 +23,7 @@
 
 Acceso completo a la base de conocimiento (`/kb/pentest-reports/`) en sintaxis Markdown nativa para inspección de comandos, código, artefactos forenses y queries SPL:
 
-* 🪟 **[Active Directory & Windows Infrastructure (`\KB\PENTEST-reports\Active-Directory-and-Enterprise-Identity/`)](.\KB\PENTEST-reports\Active-Directory-and-Enterprise-Identity/)**
+* 🪟 **[Active Directory & Windows Infrastructure (`\KB\PENTEST-reports\Active-Directory-and-Enterprise-Identity/`)](./KB/PENTEST-reports/Active-Directory-and-Enterprise-Identity/)**
   * *HTB Cascade* (LDAP Custom, DES VNC) y auditorías adicionales.
 * 🐧 **[Linux & Web Applications (`\KB\PENTEST-reports\Web-Application-Penetration-Testing\`)](.\KB\PENTEST-reports\Web-Application-Penetration-Testing/)**
   * *HTB Mango* (Blind NoSQLi `$regex`, `jjs` SUID) y auditorías adicionales.
