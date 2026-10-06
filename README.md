@@ -17,6 +17,7 @@
 | **HTB Conversor** | XSLT Injection to RCE, Privilege Escalation via `needrestart` (CVE-2024-48990 / `PYTHONPATH`) | 📄&nbsp;[PDF&nbsp;Report](./Reports-pdf/HTB_Conversor_Linux_Web_PrivilegeEscalation_Pentest_Report.pdf) |
 | **HTB Outbound** | Roundcube RCE (CVE-2025-49113), 3DES session decryption, escalation in `Below` (CVE-2025-27591) | 📄&nbsp;[PDF&nbsp;Report](./Reports-pdf/HTB_Outbound_Linux_Web_MailServer_Pentest_Report.pdf) |
 | **HTB Lock** | ASPX WebShell via Gitea, mRemoteNG decryption, OpLock / MSI Race Condition (CVE-2023-49147) | 📄&nbsp;[PDF&nbsp;Report](./Reports-pdf/HTB_Lock_Windows_Web_PrivilegeEscalation_Pentest_Report.pdf) |
+
 ## 📚 Knowledge Base (KB) - Audits and Analysis (.md)
 
 Full access to the knowledge base (`./KB/`) in native Markdown syntax for command inspection, code, forensic artifacts, and SPL queries:
