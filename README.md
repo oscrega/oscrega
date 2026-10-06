@@ -5,19 +5,18 @@
 ### A. Active Directory & Enterprise Infrastructure
 | Project / Target | Key Vectors & TTPs (MITRE ATT&CK) | Full Report |
 | :--- | :--- | :--- |
-| **HTB EscapeTwo** | AD CS Exploitation (ESC4 to ESC1), WriteOwner in DACL, MSSQL `xp_cmdshell` | 📄 [PDF Report](./Reports-pdf/HTB_EscapeTwo_Windows_ActiveDirectory_Pentest_Report.pdf) |
-| **HTB Fluffy** | NTLMv2 Coercion (CVE-2025-24071), Shadow Credentials (`msDS-KeyCredentialLink` / ESC16), PKINIT | 📄 [PDF Report](./Reports-pdf/HTB_Fluffy_Windows_ActiveDirectory_Pentest_Report.pdf) |
-| **HTB Voleur** | Targeted Kerberoasting, object restoration with `bloodyAD`, DPAPI, and WSL pivoting | 📄 [PDF Report](./Reports-pdf/HTB_Voleur_Windows_ActiveDirectory_Pentest_Report.pdf) |
-| **HTB Administrator** | GenericAll permissions in RPC, malicious SPN injection (`GenericWrite`), and DCSync | 📄 [PDF Report](./Reports-pdf/HTB_Administrator_Windows_ActiveDirectory_Pentest_Report.pdf) |
+| **HTB EscapeTwo** | AD CS Exploitation (ESC4 to ESC1), WriteOwner in DACL, MSSQL `xp_cmdshell` | 📄&nbsp;[PDF&nbsp;Report](./Reports-pdf/HTB_EscapeTwo_Windows_ActiveDirectory_Pentest_Report.pdf) |
+| **HTB Fluffy** | NTLMv2 Coercion (CVE-2025-24071), Shadow Credentials (`msDS-KeyCredentialLink` / ESC16), PKINIT | 📄&nbsp;[PDF&nbsp;Report](./Reports-pdf/HTB_Fluffy_Windows_ActiveDirectory_Pentest_Report.pdf) |
+| **HTB Voleur** | Targeted Kerberoasting, object restoration with `bloodyAD`, DPAPI, and WSL pivoting | 📄&nbsp;[PDF&nbsp;Report](./Reports-pdf/HTB_Voleur_Windows_ActiveDirectory_Pentest_Report.pdf) |
+| **HTB Administrator** | GenericAll permissions in RPC, malicious SPN injection (`GenericWrite`), and DCSync | 📄&nbsp;[PDF&nbsp;Report](./Reports-pdf/HTB_Administrator_Windows_ActiveDirectory_Pentest_Report.pdf) |
 
 ### B. Linux, Web Applications & Modern Stacks
 | Project / Target | Key Vectors & TTPs (MITRE ATT&CK) | Full Report |
 | :--- | :--- | :--- |
-| **HTB DevHub** | MCP Protocol RCE (CVE-2026-23744), Chisel Tunneling, Flask Endpoints | 📄 [PDF Report](./Reports-pdf/HTB_DevHub_Linux_Web_AI_Pentest_Report.pdf) |
-| **HTB Conversor** | XSLT Injection to RCE, Privilege Escalation via `needrestart` (CVE-2024-48990 / `PYTHONPATH`) | 📄 [PDF Report](./Reports-pdf/HTB_Conversor_Linux_Web_PrivilegeEscalation_Pentest_Report.pdf) |
-| **HTB Outbound** | Roundcube RCE (CVE-2025-49113), 3DES session decryption, escalation in `Below` (CVE-2025-27591) | 📄 [PDF Report](./Reports-pdf/HTB_Outbound_Linux_Web_MailServer_Pentest_Report.pdf) |
-| **HTB Lock** | ASPX WebShell via Gitea, mRemoteNG decryption, OpLock / MSI Race Condition (CVE-2023-49147) | 📄 [PDF Report](./Reports-pdf/HTB_Lock_Windows_Web_PrivilegeEscalation_Pentest_Report.pdf) |
-
+| **HTB DevHub** | MCP Protocol RCE (CVE-2026-23744), Chisel Tunneling, Flask Endpoints | 📄&nbsp;[PDF&nbsp;Report](./Reports-pdf/HTB_DevHub_Linux_Web_AI_Pentest_Report.pdf) |
+| **HTB Conversor** | XSLT Injection to RCE, Privilege Escalation via `needrestart` (CVE-2024-48990 / `PYTHONPATH`) | 📄&nbsp;[PDF&nbsp;Report](./Reports-pdf/HTB_Conversor_Linux_Web_PrivilegeEscalation_Pentest_Report.pdf) |
+| **HTB Outbound** | Roundcube RCE (CVE-2025-49113), 3DES session decryption, escalation in `Below` (CVE-2025-27591) | 📄&nbsp;[PDF&nbsp;Report](./Reports-pdf/HTB_Outbound_Linux_Web_MailServer_Pentest_Report.pdf) |
+| **HTB Lock** | ASPX WebShell via Gitea, mRemoteNG decryption, OpLock / MSI Race Condition (CVE-2023-49147) | 📄&nbsp;[PDF&nbsp;Report](./Reports-pdf/HTB_Lock_Windows_Web_PrivilegeEscalation_Pentest_Report.pdf) |
 ## 📚 Knowledge Base (KB) - Audits and Analysis (.md)
 
 Full access to the knowledge base (`./KB/`) in native Markdown syntax for command inspection, code, forensic artifacts, and SPL queries:
