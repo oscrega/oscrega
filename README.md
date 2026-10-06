@@ -18,6 +18,7 @@
 | **HTB Outbound** | Roundcube RCE (CVE-2025-49113), 3DES session decryption, escalation in `Below` (CVE-2025-27591) | 📄&nbsp;[PDF&nbsp;Report](./Reports-pdf/HTB_Outbound_Linux_Web_MailServer_Pentest_Report.pdf) |
 | **HTB Lock** | ASPX WebShell via Gitea, mRemoteNG decryption, OpLock / MSI Race Condition (CVE-2023-49147) | 📄&nbsp;[PDF&nbsp;Report](./Reports-pdf/HTB_Lock_Windows_Web_PrivilegeEscalation_Pentest_Report.pdf) |
 
+
 ## 📚 Knowledge Base (KB) - Audits and Analysis (.md)
 
 Full access to the knowledge base (`./KB/`) in native Markdown syntax for command inspection, code, forensic artifacts, and SPL queries:
@@ -48,6 +49,7 @@ Full access to the knowledge base (`./KB/`) in native Markdown syntax for comman
 * 📊 **[Detection, SIEM & Log Analysis with Splunk (`./KB/SPLUNK-reports/Dataset_Botv2/`)](./KB/SPLUNK-reports/Dataset_Botv2/)**
 
   * Threat Hunting through advanced SPL queries, correlation rule development, and analysis of large security event datasets.
+
 
 ## 🎓 Academic Projects & Artificial Intelligence (`Academic_projects/`)
 
