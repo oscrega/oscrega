@@ -5,10 +5,10 @@
 ### A. Active Directory & Enterprise Infrastructure
 | Project / Target | Key Vectors & TTPs (MITRE ATT&CK) | Full Report |
 | :--- | :--- | :--- |
-| **HTB EscapeTwo** | AD CS Exploitation (ESC4 to ESC1), WriteOwner in DACL, MSSQL `xp_cmdshell` | 📄 [View PDF](./Reports-pdf/HTB_EscapeTwo_Windows_ActiveDirectory_Pentest_Report.pdf) |
-| **HTB Fluffy** | NTLMv2 Coercion (CVE-2025-24071), Shadow Credentials (`msDS-KeyCredentialLink` / ESC16), PKINIT | 📄 [View PDF](./Reports-pdf/HTB_Fluffy_Windows_ActiveDirectory_Pentest_Report.pdf) |
-| **HTB Voleur** | Targeted Kerberoasting, object restoration with `bloodyAD`, DPAPI, and WSL pivoting | 📄 [View PDF](./Reports-pdf/HTB_Voleur_Windows_ActiveDirectory_Pentest_Report.pdf) |
-| **HTB Administrator** | GenericAll permissions in RPC, malicious SPN injection (`GenericWrite`), and DCSync | 📄 [View PDF](./Reports-pdf/HTB_Administrator_Windows_ActiveDirectory_Pentest_Report.pdf) |
+| **HTB EscapeTwo** | AD CS Exploitation (ESC4 to ESC1), WriteOwner in DACL... | 📄 [View PDF](./Reports-pdf/HTB_EscapeTwo_Windows_ActiveDirectory_Pentest_Report.pdf) |
+| **HTB Fluffy** | NTLMv2 Coercion (CVE-2025-24071), Shadow Credentials... | 📄 [View PDF](./Reports-pdf/HTB_Fluffy_Windows_ActiveDirectory_Pentest_Report.pdf) |
+| **HTB Voleur** | Targeted Kerberoasting, object restoration with `bloodyAD`... | 📄 [View PDF](./Reports-pdf/HTB_Voleur_Windows_ActiveDirectory_Pentest_Report.pdf) |
+| **HTB Administrator** | GenericAll permissions in RPC, malicious SPN injection (`GenericWrite`)... | 📄 [View PDF](./Reports-pdf/HTB_Administrator_Windows_ActiveDirectory_Pentest_Report.pdf) |
 
 ### B. Linux, Web Applications & Modern Stacks
 | Project / Target | Key Vectors & TTPs (MITRE ATT&CK) | Full Report |
