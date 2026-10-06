@@ -1,86 +1,86 @@
-## 📄 Informes Destacados (TOP 8 Auditorias en PDF)
+## 📄 Featured Reports (TOP 8 PDF Audits)
 
-> *Nota: Auditorías técnicas completas maquetadas en formato corporativo PDF. Incluyen Resumen Ejecutivo (dirigido a C-Level / Dirección), Matriz de Hallazgos CVSS v3.1, Pruebas de Concepto (PoC) detalladas, alineación con MITRE ATT&CK y plan de remediación.*
+> *Note: Comprehensive technical audits structured in corporate PDF format. They include an Executive Summary (targeted at C-Level / Management), CVSS v3.1 Findings Matrix, detailed Proofs of Concept (PoC), MITRE ATT&CK alignment, and a remediation roadmap.*
 
 ### A. Active Directory & Enterprise Infrastructure
-| Proyecto / Target | Vectores & TTPs Clave (MITRE ATT&CK) | Reporte Completo |
+| Project / Target | Key Vectors & TTPs (MITRE ATT&CK) | Full Report |
 | :--- | :--- | :--- |
-| **HTB EscapeTwo** | Explotación AD CS (ESC4 a ESC1), WriteOwner en DACL, MSSQL `xp_cmdshell` | 📄 [Ver PDF](./Reports-pdf/HTB_EscapeTwo_Windows_ActiveDirectory_Pentest_Report.pdf) |
-| **HTB Fluffy** | Coerción NTLMv2 (CVE-2025-24071), Shadow Credentials (`msDS-KeyCredentialLink` / ESC16), PKINIT | 📄 [Ver PDF](./Reports-pdf/HTB_Fluffy_Windows_ActiveDirectory_Pentest_Report.pdf) |
-| **HTB Voleur** | Targeted Kerberoasting, restauración de objetos con `bloodyAD`, DPAPI y pivotaje WSL | 📄 [Ver PDF](./Reports-pdf/HTB_Voleur_Windows_ActiveDirectory_Pentest_Report.pdf) |
-| **HTB Administrator** | Permisos GenericAll en RPC, inyección de SPN malicioso (`GenericWrite`) y DCSync | 📄 [Ver PDF](./Reports-pdf/HTB_Administrator_Windows_ActiveDirectory_Pentest_Report.pdf) |
+| **HTB EscapeTwo** | AD CS Exploitation (ESC4 to ESC1), WriteOwner in DACL, MSSQL `xp_cmdshell` | 📄 [View PDF](./Reports-pdf/HTB_EscapeTwo_Windows_ActiveDirectory_Pentest_Report.pdf) |
+| **HTB Fluffy** | NTLMv2 Coercion (CVE-2025-24071), Shadow Credentials (`msDS-KeyCredentialLink` / ESC16), PKINIT | 📄 [View PDF](./Reports-pdf/HTB_Fluffy_Windows_ActiveDirectory_Pentest_Report.pdf) |
+| **HTB Voleur** | Targeted Kerberoasting, object restoration with `bloodyAD`, DPAPI, and WSL pivoting | 📄 [View PDF](./Reports-pdf/HTB_Voleur_Windows_ActiveDirectory_Pentest_Report.pdf) |
+| **HTB Administrator** | GenericAll permissions in RPC, malicious SPN injection (`GenericWrite`), and DCSync | 📄 [View PDF](./Reports-pdf/HTB_Administrator_Windows_ActiveDirectory_Pentest_Report.pdf) |
 
 ### B. Linux, Web Applications & Modern Stacks
-| Proyecto / Target | Vectores & TTPs Clave (MITRE ATT&CK) | Reporte Completo |
+| Project / Target | Key Vectors & TTPs (MITRE ATT&CK) | Full Report |
 | :--- | :--- | :--- |
-| **HTB DevHub** | RCE en protocolo MCP (CVE-2026-23744), Tunneling con Chisel, Endpoints Flask | 📄 [Ver PDF](./Reports-pdf/HTB_DevHub_Linux_Web_AI_Pentest_Report.pdf) |
-| **HTB Conversor** | Inyección XSLT a RCE, Escalada vía `needrestart` (CVE-2024-48990 / `PYTHONPATH`) | 📄 [Ver PDF](./Reports-pdf/HTB_Conversor_Linux_Web_PrivilegeEscalation_Pentest_Report.pdf) |
-| **HTB Outbound** | RCE en Roundcube (CVE-2025-49113), descifrado 3DES de sesión, escalada en `Below` (CVE-2025-27591) | 📄 [Ver PDF](./Reports-pdf/HTB_Outbound_Linux_Web_MailServer_Pentest_Report.pdf) |
-| **HTB Lock** | WebShell ASPX vía Gitea, descifrado mRemoteNG, OpLock / MSI Race Condition (CVE-2023-49147) | 📄 [Ver PDF](./Reports-pdf/HTB_Lock_Windows_Web_PrivilegeEscalation_Pentest_Report.pdf) |
+| **HTB DevHub** | MCP Protocol RCE (CVE-2026-23744), Chisel Tunneling, Flask Endpoints | 📄 [View PDF](./Reports-pdf/HTB_DevHub_Linux_Web_AI_Pentest_Report.pdf) |
+| **HTB Conversor** | XSLT Injection to RCE, Privilege Escalation via `needrestart` (CVE-2024-48990 / `PYTHONPATH`) | 📄 [View PDF](./Reports-pdf/HTB_Conversor_Linux_Web_PrivilegeEscalation_Pentest_Report.pdf) |
+| **HTB Outbound** | Roundcube RCE (CVE-2025-49113), 3DES session decryption, escalation in `Below` (CVE-2025-27591) | 📄 [View PDF](./Reports-pdf/HTB_Outbound_Linux_Web_MailServer_Pentest_Report.pdf) |
+| **HTB Lock** | ASPX WebShell via Gitea, mRemoteNG decryption, OpLock / MSI Race Condition (CVE-2023-49147) | 📄 [View PDF](./Reports-pdf/HTB_Lock_Windows_Web_PrivilegeEscalation_Pentest_Report.pdf) |
 
 
-## 📚 Base de Conocimiento (KB) - Auditorías y Análisis (.md)
+## 📚 Knowledge Base (KB) - Audits and Analysis (.md)
 
-Acceso completo a la base de conocimiento (`./KB/`) en sintaxis Markdown nativa para inspección de comandos, código, artefactos forenses y queries SPL:
+Full access to the knowledge base (`./KB/`) in native Markdown syntax for command inspection, code, forensic artifacts, and SPL queries:
 
 * ⚔️ **[Pentesting, Red Team & Offensive Security (`./KB/PENTEST-reports/`)](./KB/PENTEST-reports/)**
 
-  * **[Active Directory & Enterprise Identity](./KB/PENTEST-reports/Active-Directory-and-Enterprise-Identity/):** Enumeración LDAP, explotación de Kerberos, movimiento lateral, persistencia y auditoría de infraestructuras Active Directory.
-  * **[Binary Exploitation & Host Hardening](./KB/PENTEST-reports/Binary-Exploitation-and-Host-Hardening/):** Explotación de binarios, análisis de buffer overflows, elevación de privilegios y hardening de sistemas.
-  * **[Emerging Tech, AI & CI/CD Security](./KB/PENTEST-reports/Emerging-Tech-AI-and-CICD-Security/):** Auditorías de pipelines CI/CD, seguridad en modelos/aplicaciones con IA y evaluación de tecnologías emergentes.
-  * **[Perimeter Network & Remote Access](./KB/PENTEST-reports/Perimeter-Network-and-Remote-Access/):** Pentesting perimetral, servicios de acceso remoto (VPN, SSH, RDP) y auditorías de infraestructura expuesta.
-  * **[Web Application Penetration Testing](./KB/PENTEST-reports/Web-Application-Penetration-Testing/):** Inyecciones NoSQL/SQL, evasión de controles, escalada de privilegios web y auditorías de aplicaciones.
+  * **[Active Directory & Enterprise Identity](./KB/PENTEST-reports/Active-Directory-and-Enterprise-Identity/):** LDAP enumeration, Kerberos exploitation, lateral movement, persistence, and Active Directory infrastructure auditing.
+  * **[Binary Exploitation & Host Hardening](./KB/PENTEST-reports/Binary-Exploitation-and-Host-Hardening/):** Binary exploitation, buffer overflow analysis, privilege escalation, and system hardening.
+  * **[Emerging Tech, AI & CI/CD Security](./KB/PENTEST-reports/Emerging-Tech-AI-and-CICD-Security/):** CI/CD pipeline audits, security in AI models/applications, and emerging technology assessment.
+  * **[Perimeter Network & Remote Access](./KB/PENTEST-reports/Perimeter-Network-and-Remote-Access/):** Perimeter pentesting, remote access services (VPN, SSH, RDP), and exposed infrastructure audits.
+  * **[Web Application Penetration Testing](./KB/PENTEST-reports/Web-Application-Penetration-Testing/):** NoSQL/SQL injections, control evasion, web privilege escalation, and application auditing.
 
-* 🔍 **[DFIR & Forense de Host (`./KB/DFIR-reports/`)](./KB/DFIR-reports/)**
+* 🔍 **[DFIR & Host Forensics (`./KB/DFIR-reports/`)](./KB/DFIR-reports/)**
 
-  * **[Active Directory & Controlador de Dominio](./KB/DFIR-reports/Active_Directory_&_Controlador_de_Dominio_(Kerberos_&_NTDS)/):** Artefactos de autenticación, extracción/análisis de bases de datos NTDS.dit y dumps de Kerberos.
-  * **[Análisis Forense de Memoria RAM](./KB/DFIR-reports/Análisis_Forense_de_Memoria_RAM_(Volatility)/):** Extracción de artefactos en volúmenes de RAM con Volatility, identificación de malware inyectado e Imphash.
-  * **[Análisis Forense de Sistema de Archivos & Triage](./KB/DFIR-reports/Análisis_Forense_de_Sistema_de_Archivos_&_Triaje_de_Disco_(MFT_&_USN_&_Prefetch)/):** Triage de disco, análisis de registros MFT, USN Journal y evidencias de ejecución en Prefetch.
-  * **[Entornos Linux, Auditoría Web & Tráfico de Red](./KB/DFIR-reports/Entornos_Linux_Auditoría_Web_&_Tráfico_de_Red_(PCAP)/):** Capturas de tráfico PCAP, análisis de accesos web y artefactos forenses en sistemas Linux.
-  * **[Seguridad de Endpoints Windows & Evasión de Defensas](./KB/DFIR-reports/Seguridad_de_Endpoints_Windows_&_Evasión_de_Defensas_(EVTX_&_Sysmon)/):** Correlación de eventos EVTX/Sysmon, detección de técnicas de evasión e indicadores de compromiso (IOCs).
+  * **[Active Directory & Domain Controller](./KB/DFIR-reports/Active_Directory_%26_Controlador_de_Dominio_(Kerberos_%26_NTDS)/):** Authentication artifacts, NTDS.dit database extraction/analysis, and Kerberos dumps.
+  * **[RAM Memory Forensic Analysis](./KB/DFIR-reports/An%C3%A1lisis_Forense_de_Memoria_RAM_(Volatility)/):** Extraction of artifacts in RAM volumes using Volatility, identification of injected malware, and Imphash.
+  * **[File System Forensics & Disk Triage](./KB/DFIR-reports/An%C3%A1lisis_Forense_de_Sistema_de_Archivos_%26_Triaje_de_Disco_(MFT_%26_USN_%26_Prefetch)/):** Disk triage, MFT registry analysis, USN Journal, and execution evidence in Prefetch.
+  * **[Linux Environments, Web Auditing & Network Traffic](./KB/DFIR-reports/Entornos_Linux_Auditor%C3%ADa_Web_%26_Tr%C3%A1fico_de_Red_(PCAP)/):** PCAP traffic captures, web access analysis, and forensic artifacts on Linux systems.
+  * **[Windows Endpoint Security & Defense Evasion](./KB/DFIR-reports/Seguridad_de_Endpoints_Windows_%26_Evasi%C3%B3n_de_Defensas_(EVTX_%26_Sysmon)/):** EVTX/Sysmon event correlation, evasion technique detection, and Indicators of Compromise (IOCs).
 
-* 🚨 **[SOC, Threat Hunting & Análisis de Red (`./KB/SOC-reports/`)](./KB/SOC-reports/)**
+* 🚨 **[SOC, Threat Hunting & Network Analysis (`./KB/SOC-reports/`)](./KB/SOC-reports/)**
 
-  * **[Email Security & Phishing Analysis](./KB/SOC-reports/Email_Security_&_Phishing_Analysis/):** Análisis de cabeceras de correo, trazabilidad de cabeceras SMTP, extracción de adjuntos y triage de phishing.
-  * **[Network Traffic & C2 Analysis](./KB/SOC-reports/Network_Traffic_&_C2_Analysis/):** Detección de tráfico de red anómalo, identificación de beacons C2 y exfiltración de datos.
-  * **[Web Security & NIDS Alert Triage](./KB/SOC-reports/Web_Security_&_NIDS_Alert_Triage/):** Triage de alertas NIDS (Suricata/Snort), vulnerabilidades web expuestas e inspección de peticiones de red.
-  * **[Windows Endpoint & Database Artifacts](./KB/SOC-reports/Windows_Endpoint_&_Database_Artifacts/):** Detección de persistencia en endpoints, análisis de bases de datos y comportamiento anómalo de procesos.
+  * **[Email Security & Phishing Analysis](./KB/SOC-reports/Email_Security_%26_Phishing_Analysis/):** Email header analysis, SMTP header traceability, attachment extraction, and phishing triage.
+  * **[Network Traffic & C2 Analysis](./KB/SOC-reports/Network_Traffic_%26_C2_Analysis/):** Anomalous network traffic detection, C2 beacon identification, and data exfiltration.
+  * **[Web Security & NIDS Alert Triage](./KB/SOC-reports/Web_Security_%26_NIDS_Alert_Triage/):** NIDS alert triage (Suricata/Snort), exposed web vulnerabilities, and network request inspection.
+  * **[Windows Endpoint & Database Artifacts](./KB/SOC-reports/Windows_Endpoint_%26_Database_Artifacts/):** Endpoint persistence detection, database analysis, and anomalous process behavior.
 
-* 📊 **[Detección, SIEM & Análisis de Logs con Splunk (`./KB/SPLUNK-reports/Dataset_Botv2/`)](./KB/SPLUNK-reports/Dataset_Botv2/)**
+* 📊 **[Detection, SIEM & Log Analysis with Splunk (`./KB/SPLUNK-reports/Dataset_Botv2/`)](./KB/SPLUNK-reports/Dataset_Botv2/)**
 
-  * Threat Hunting mediante consultas SPL avanzadas, desarrollo de reglas de correlación y análisis de grandes datasets de eventos de seguridad.
+  * Threat Hunting through advanced SPL queries, correlation rule development, and analysis of large security event datasets.
 
-## 🎓 Proyectos Académicos & Inteligencia Artificial (`Academic_projects/`)
+## 🎓 Academic Projects & Artificial Intelligence (`Academic_projects/`)
 
-Acceso a proyectos académicos, código fuente, scripts de prueba y documentación técnica desarrollada (`Academic_projects/`):
+Access to academic projects, source code, test scripts, and developed technical documentation (`Academic_projects/`):
 
 * 🤖 **[Artificial Intelligence & Intelligent Systems](Academic_projects/Artificial%20Intelligence%20%26%20Intelligent%20Systems/)**
 
-  * **[Documentación & Análisis (`Ejercicio_Embalses_IA_ÓOR.pdf`)](Academic_projects/Artificial%20Intelligence%20%26%20Intelligent%20Systems/Ejercicio_Embalses_IA_%C3%93OR.pdf):** Memoria técnica del estudio e implementación de modelos de Inteligencia Artificial aplicados a la predicción y análisis de embalses.
-  * **[Cuaderno de Código (`Ejercicio.ipynb`)](Academic_projects/Artificial%20Intelligence%20%26%20Intelligent%20Systems/Ejercicio.ipynb):** Jupyter Notebook interactivo con la ejecución de algoritmos, preprocesamiento de datos y gráficos de rendimiento.
+  * **[Documentation & Analysis (`Ejercicio_Embalses_IA_ÓOR.pdf`)](Academic_projects/Artificial%20Intelligence%20%26%20Intelligent%20Systems/Ejercicio_Embalses_IA_%C3%93OR.pdf):** Technical report on the study and implementation of Artificial Intelligence models applied to reservoir prediction and analysis.
+  * **[Code Notebook (`Ejercicio.ipynb`)](Academic_projects/Artificial%20Intelligence%20%26%20Intelligent%20Systems/Ejercicio.ipynb):** Interactive Jupyter Notebook featuring algorithm execution, data preprocessing, and performance graphs.
 
 * 🗄️ **[Dataset Design & Development (ST)](Academic_projects/Dataset%20Design%20%26%20Development%20%28ST%29/)**
 
-  * **[Documentación de Diseño (`Trabajo_DataBase_Óscar_Ortega_Rueda_1.pdf`)](Academic_projects/Dataset%20Design%20%26%20Development%20%28ST%29/Trabajo_DataBase_%C3%93scar_Ortega_Rueda_1.pdf):** Proyecto completo sobre el modelado conceptual, lógico y físico para la gestión de bases de datos.
-  * **[Esquemas & Diagramas](Academic_projects/Dataset%20Design%20%26%20Development%20%28ST%29/):** Diagrama Físico (`Aceites_Tardudo_Diagrama_Físico.drawio`), Diagrama Conceptual (`Aceites_Tardudo_Diagrama_Conceptual.drawio`) y Diagrama Relacional (`Aceites_Tardudo_Diagrama_Relacional.drawio`).
-  * **[Scripts SQL Implementados](Academic_projects/Dataset%20Design%20%26%20Development%20%28ST%29/):** Ficheros DDL/DML y consultas agrupadas en subcarpetas (`aceites_tarudo.sql/` y `querry_aceites_tarudo.sql/`).
+  * **[Design Documentation (`Trabajo_DataBase_Óscar_Ortega_Rueda_1.pdf`)](Academic_projects/Dataset%20Design%20%26%20Development%20%28ST%29/Trabajo_DataBase_%C3%93scar_Ortega_Rueda_1.pdf):** Comprehensive project covering conceptual, logical, and physical modeling for database management.
+  * **[Schematics & Diagrams](Academic_projects/Dataset%20Design%20%26%20Development%20%28ST%29/):** Physical Diagram (`Aceites_Tardudo_Diagrama_Físico.drawio`), Conceptual Diagram (`Aceites_Tardudo_Diagrama_Conceptual.drawio`), and Relational Diagram (`Aceites_Tardudo_Diagrama_Relacional.drawio`).
+  * **[Implemented SQL Scripts](Academic_projects/Dataset%20Design%20%26%20Development%20%28ST%29/):** DDL/DML files and queries grouped in subfolders (`aceites_tarudo.sql/` and `querry_aceites_tarudo.sql/`).
 
 * 📋 **[Planning a Computing Project](Academic_projects/Planning%20a%20Computing%20Project/)**
 
-  * **[Propuesta de Proyecto (`E-volution Óscar Ortega Rueda.pdf`)](Academic_projects/Planning%20a%20Computing%20Project/E-volution%20%C3%93scar%20Ortega%20Rueda.pdf):** Planificación estratégica, gestión de recursos y metodología para el desarrollo de software (Proyecto *E-volution*).
+  * **[Project Proposal (`E-volution Óscar Ortega Rueda.pdf`)](Academic_projects/Planning%20a%20Computing%20Project/E-volution%20%C3%93scar%20Ortega%20Rueda.pdf):** Strategic planning, resource management, and methodology for software development (*E-volution* Project).
 
-* 💻 **[Programming & Coding (Python & Desarrollo)](Academic_projects/Programming%20%26%20Coding/)**
+* 💻 **[Programming & Coding (Python & Development)](Academic_projects/Programming%20%26%20Coding/)**
 
-  * **[Memoria Técnica (`Oscar Ortega Trabajo.pdf`)](Academic_projects/Programming%20%26%20Coding/PDF%20Completo/Oscar%20Ortega%20Trabajo.pdf):** Documentación completa del proyecto de desarrollo de software y arquitectura lógica.
-  * **[Presentación Ejecutiva (`PPT Trabajo Oscar Ortega.pptx`)](Academic_projects/Programming%20%26%20Coding/PPT%20Oscar%20Ortega%20Rueda/PPT%20Trabajo%20Oscar%20Ortega.pptx):** Diapositivas de defensa del proyecto de programación.
-  * **[Archivos de Código Python](Academic_projects/Programming%20%26%20Coding/Python%20archivos/):** Implementaciones en Python agrupadas por actividades (`AB2/` con `main.py`, `numeros.py` y `AB3/`).
+  * **[Technical Report (`Oscar Ortega Trabajo.pdf`)](Academic_projects/Programming%20%26%20Coding/PDF%20Completo/Oscar%20Ortega%20Trabajo.pdf):** Complete software development project documentation and logical architecture.
+  * **[Executive Presentation (`PPT Trabajo Oscar Ortega.pptx`)](Academic_projects/Programming%20%26%20Coding/PPT%20Oscar%20Ortega%20Rueda/PPT%20Trabajo%20Oscar%20Ortega.pptx):** Slide deck for the programming project defense.
+  * **[Python Code Files](Academic_projects/Programming%20%26%20Coding/Python%20archivos/):** Python implementations grouped by activities (`AB2/` with `main.py`, `numeros.py`, and `AB3/`).
 
 ---
 
-## 📜 Certificaciones Profesionales (`Certifications/`)
+## 📜 Professional Certifications (`Certifications/`)
 
-Acreditaciones y certificaciones de ciberseguridad e industria:
+Cybersecurity and industry accreditations and certifications:
 
 * 🛡️ **[INE - eJPTv2 (eLearnSecurity Junior Penetration Tester v2)](Certifications/INE_eJPTv2.pdf)**
 
-  * Certificación práctica de hacking ético y auditoría ofensiva de redes, evaluación de vulnerabilidades, explotación de aplicaciones web y post-explotación.
+  * Practical certification in ethical hacking, offensive network auditing, vulnerability assessment, web application exploitation, and post-exploitation.
